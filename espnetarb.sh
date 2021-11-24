@@ -9,5 +9,5 @@ if [ -f $filename ]; then
    rm espnet/tools/configuration/espnetarb.py
    
 fi
-
+!bash espnet/tools/configuration/arab_tts.sh
 
