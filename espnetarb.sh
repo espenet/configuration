@@ -1,13 +1,13 @@
-mkdir espnet/tools/model
-python espnet/tools/configuration/espnetarb.py
+#mkdir espnet/tools/model
+#python espnet/tools/configuration/espnetarb.py
 sleep 30
-filename='espnet/tools/configuration/espnetarb.py'
+#filename='espnet/tools/configuration/espnetarb.py'
 # Create an empty file
-touch $filename
+#touch $filename
 # Check the file is exists or not
-if [ -f $filename ]; then
+#if [ -f $filename ]; then
    rm espnet/tools/configuration/espnetarb.py
    
 fi
-sh espnet/tools/configuration/arab_tts.sh
+#sh espnet/tools/configuration/arab_tts.sh
 
